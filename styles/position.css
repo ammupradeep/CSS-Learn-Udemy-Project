@@ -1,0 +1,36 @@
+.container{
+    border: 2px solid red;
+}
+
+.item{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    position: static;
+/*
+    top: 2rem;
+    left: 2rem
+*/
+}
+
+/*
+.item2{
+    position: relative;
+    bottom: 2rem;
+    top: 2rem;
+}*/
+.item3{
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+}
+.item1{
+    background-color: aqua;
+    color: white;
+    width: 100%;
+    position: sticky;
+    top: 0rem;
+    left: 0rem
+}
+
+/*position--> absolutr,relative,static,fixed and sticky(more cute)*/

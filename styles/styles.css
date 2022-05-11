@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Glory&family=Roboto+Slab&display=swap');
+
+@font-face{
+    font-family:"Glory";
+    src: url("font/Glory-VariableFont_wght.ttff");
+}*/
+.box{
+    font-family: "Glory", sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: darkgreen;
+    border-color: darkgreen;
+    border-style: solid;
+    border-width: 3px;
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: green;
+}
+/*#tick-mark {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+#tick-mark::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 3px;
+    background-color: #336699;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+#tick-mark::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #336699;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+p{
+    display: inline;
+    padding: 20px;
+}
+.h{
+    width: 5%;
+    height: 4px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    margin-bottom: 90px;
+    background-color: white;
+}
+*/
+body{
+    font-family: "Roboto slab";
+}
+.article{
+    margin: auto;
+    width: 50%;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 20px;
+}
+.article-images{
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 414px){
+    .article {
+        width: 100%;
+        padding: 0;
+    }
+    .article-images {
+        width: 100%;
+    }
+}
+
+@media screen 
+and (min-width: 415px) 
+and (max-width: 1024px) {
+    .article{
+        width: 80%;
+    }
+    .article-images{
+        width: 40%;
+    }
+}
+
+h1{
+    color: #289599;
+}
+h3{
+    color: #999;
+}
+.article p{
+    color: #888;
+    text-align: justify;
+}
+* {
+   border: 1px solid blue; 
+}
+

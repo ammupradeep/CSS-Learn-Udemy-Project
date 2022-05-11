@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    font-family: "Roboto Slab", sans-serif;
+    box-sizing: border-box
+}
+
+/*div{
+    border: 1px solid blue;
+}*/
+
+body{
+    margin: 0px;
+    background-color: #F5C6A5
+}
+
+.header{
+    background-color: #852747;
+    border-bottom: 0.5rem solid #FF7777
+}
+
+.logo{
+    color: #F5C6A5;
+    padding: 1.2rem;
+    margin: 0px
+}
+
+.footer{
+/*    clear: both;*/
+    padding: 1.2rem;
+    background-color: #852747;
+    color:  #F5C6A5;
+}
+.container{
+    display: flex;
+}
+
+.category-colomn{
+    width: 25%;
+/*    float: left;*/
+    padding: 1.2rem;
+   }
+.headlines-colomn{
+    width: 50%;
+/*    float: left;*/
+    padding: 1.2rem;
+}
+.weather-colomn{
+    width: 25%;
+/*    float: left;*/
+    padding: 1.2rem;
+}
+.heading{
+    color: #A2416B;
+    margin: 1.2rem
+}
+.content{
+    border: 0.1rem solid #FF7777;
+    border-radius: 0.4rem;
+/*
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;    
+*/
+}
+.news-title,.category-item{
+/*
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+*/
+    color: #852747;
+    margin: 1.2rem
+}
+.news-title:hover {
+    cursor: pointer;
+    color: #A2416B;
+    text-decoration: underline;
+}
+.weather-degree{
+    text-align: center;
+    color: #FF7777;
+    font-size: 6rem
+}

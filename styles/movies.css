@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    font-family: "Roboto Slab";
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse
+}
+
+tr:nth-child(odd){
+    background-color: olive
+}
+
+tr:nth-child(even){
+    background-color: slategray
+}
+
+th, td{
+    padding: 1rem;
+    color: #ebecf1;
+}
+
+th{
+    background-color: #1b1c25
+}
